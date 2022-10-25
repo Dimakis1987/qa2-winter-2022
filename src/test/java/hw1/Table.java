@@ -1,12 +1,14 @@
 package hw1;
 
 public class Table {
+
     private String typeOfTable;
     private String colour;
     private float height;
     private float width;
-    private float lenghth;
+    private float length;
     //----------------------------Getters and Setters---------------------------------------
+
 
     public String getTypeOfTable() {
         return typeOfTable;
@@ -40,11 +42,11 @@ public class Table {
         this.width = width;
     }
 
-    public float getLenghth() {
-        return lenghth;
+    public float getLength() {
+        return length;
     }
 
-    public void setLenghth(float lenghth) {
-        this.lenghth = lenghth;
+    public void setLength(float length) {
+        this.length = length;
     }
 }

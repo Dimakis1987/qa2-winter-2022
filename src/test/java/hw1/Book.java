@@ -6,7 +6,9 @@ public class Book {
     private int letterNumber;
     private int chapterNumber;
     private String publishingHouse;
+
     //----------------------------Getters and Setters-----------------------------------------
+
 
     public int getPageNumber() {
         return pageNumber;
@@ -24,12 +26,12 @@ public class Book {
         this.nameOfBook = nameOfBook;
     }
 
-    public int getLettersNumber() {
-        return lettersNumber;
+    public int getLetterNumber() {
+        return letterNumber;
     }
 
-    public void setLettersNumber(int lettersNumber) {
-        this.lettersNumber = lettersNumber;
+    public void setLetterNumber(int letterNumber) {
+        this.letterNumber = letterNumber;
     }
 
     public int getChapterNumber() {
